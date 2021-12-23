@@ -1,0 +1,101 @@
+.banner {
+    height: 100vh;
+    background-color: #121212;
+}
+
+.font-1{
+    font-family: 'Merriweather', serif;
+}
+
+.font-2 {
+    font-family: 'Lato', sans-serif;
+}
+
+.row-banner {
+    height: 90vh;
+}
+
+.row-carousel {
+    height: 70vh;
+}
+
+.color-1{
+    background-color: #121212;
+}
+
+.color-2 {
+    background-color: #F5F5F5;
+}
+
+.font-size-1{
+    font-size: 64px;
+}
+
+.font-size-2{
+    font-size: 16px;
+}
+
+.list-width {
+    width: 400px;
+}
+
+.footer {
+    height: 150px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+#imgBanner {
+    box-shadow: 5px 5px 5px #9e9e9e;
+}
+
+#listProgram {
+    top: 650px;
+    left: 130px;
+    width: 80vw;
+}
+
+#about {
+    margin-top: 200px;
+}
+
+#titleAbout {
+    font-size: 34px;
+}
+
+#subAbout {
+    font-size: 14px;
+}
+
+#carousel{
+    margin-top: 100px;
+}
+
+@media screen and (max-width: 885px) and (min-width: 429px) {
+    .imgProgram {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media screen and (max-width: 428px) {
+    #titleBanner {
+        font-size: 30px !important;
+        margin-top: 20px;
+    }
+
+    #imgBanner {
+        width: 200px;
+    }
+
+    .list-width {
+        width: 150px;
+    }
+
+    .footer {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+}
